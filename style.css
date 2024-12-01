@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+   font-family: 'Raleway', sans-serif;
+}
+
+body{
+   background-color: #ffefcb;
+   margin: 0;
+}
+
+.headerBody{
+   margin-top: 20px;
+   margin-left: 20px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   align-items:  flex-start;
+  
+}
+section{
+   margin-block: 100px;
+}
+.logo001{
+
+height: 300px;
+filter: drop-shadow(10px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.socialIcons img{
+
+ 
+height: 40px;
+
+}
+header a{
+
+   font-size: 30px;
+   text-decoration: none;
+   padding: 10px;
+   color: #000;
+   font-weight: 600;
+
+
+}
+nav{
+
+width: 60vw;
+max-width: 900px;
+height: 100px;
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-around;
+align-items: center;
+
+
+}
+header a:hover {
+
+   color: #444;
+   text-decoration: underline;
+
+}
+main header img{
+
+
+height: 30vw;
+
+z-index: -1;
+padding-right: -130px;
+margin-right: 11.2vw;
+
+}
+main header{
+
+display: inline-flex;
+
+justify-content: space-between;
+width: 100vw;
+left: 0;
+margin-bottom: 50px;
+
+
+}
+h1{
+   margin-left: auto;
+   margin-right: auto;
+ 
+   width: 55vw;
+   font-size: 5.5vw;
+   margin-top: -130px;
+   margin-bottom: -5.5vw;
+   text-transform: uppercase;
+   
+  
+}
+main header p{
+
+
+flex-basis: 30vw;
+margin-left: 10vw;
+margin-top: 10.5vw;
+font-size: 1.3rem;
+font-weight: 600;
+
+
+}
+
+.oNas{
+   display: inline-flex;
+   align-items: flex-start;
+   justify-content: space-between;
+   width: 100vw;
+   
+
+}
+#logo002{
+
+width: 40vw;
+margin-top: 0vw;
+
+
+
+}
+.oNas div{
+
+width: 40vw;
+margin-right: auto;
+margin-left: auto;
+font-size: 1.3rem;
+font-weight: 600;
+
+}
+h2{
+
+margin-top: 0;
+font-size: 5rem;
+border-bottom: 0.3vw solid #1e1e1e; 
+color: #1e1e1e;
+text-transform: uppercase;
+
+
+}
+#jakPomoc{
+   margin-left: 6vw;
+   width: 40vw;
+   font-size: 1.3rem;
+   font-weight: 600;
+   
+}
+#jakPomoc div{
+
+height: 4.5vw;
+width: 30vw;
+background-color: #fff;
+
+}
+.artykuly{
+   display: flex;
+  
+   width: 100vw;
+   
+   
+}
+.artykuly img{
+   width: 50vw;
+   margin-right: -10vw;
+   margin-left: 10vw;
+   margin-top: -15vw;
+}
+.artykuly article{
+
+margin-left: 6vw;
+font-size: 1.3rem;
+font-weight: 600;
+
+}
+footer{
+   display: flex;
+   
+  background-color: #3c3c3c;
+  color: #fff;
+  align-items: center;
+  font-size: 1.1vw;
+font-weight: 600;
+text-align: center;
+
+}
+footer p{
+   width: 100vw;
+}
+
